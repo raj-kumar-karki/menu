@@ -1,0 +1,47 @@
+body {
+  background: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.head {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.head h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.flipbook {
+  width: 800px;
+  height: 600px;
+  /* margin: 20px auto; */
+}
+
+.flipbook img {
+  padding-top: 5px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.foot {
+  text-align: center;
+  padding: 10px;
+  color: #666;
+  font-size: 14px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 850px) {
+  .flipbook {
+    width: 90vw;
+    height: 60vh;
+  }
+}
